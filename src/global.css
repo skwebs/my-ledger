@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "nativewind/theme";
+
+@theme {
+  --color-bg: #F6F7FB;
+  --color-surface: #FFFFFF;
+  --color-surface2: #F0F1F6;
+  --color-border: #E8E9F0;
+  --color-text1: #0D0E14;
+  --color-text2: #5C5F72;
+  --color-text3: #9EA2B3;
+  --color-blue: #3B5BF6;
+  --color-blueDim: #EEF1FF;
+  --color-green: #16A34A;
+  --color-greenDim: #DCFCE7;
+  --color-red: #DC2626;
+  --color-redDim: #FEE2E2;
+  --color-amber: #D97706;
+  --color-amberDim: #FEF3C7;
+  --color-purple: #7C3AED;
+  --color-purpleDim: #EDE9FE;
+  --color-teal: #0D9488;
+  --color-tealDim: #CCFBF1;
+
+  --font-dm-regular: DMSans_400Regular;
+  --font-dm-medium: DMSans_500Medium;
+  --font-dm-semibold: DMSans_600SemiBold;
+  --font-dm-bold: DMSans_700Bold;
+  --font-dm-extrabold: DMSans_800ExtraBold;
+}
+
+@utility font-dm-regular {
+  font-family: DMSans_400Regular;
+}
+@utility font-dm-medium {
+  font-family: DMSans_500Medium;
+}
+@utility font-dm-semibold {
+  font-family: DMSans_600SemiBold;
+}
+@utility font-dm-bold {
+  font-family: DMSans_700Bold;
+}
+@utility font-dm-extrabold {
+  font-family: DMSans_800ExtraBold;
+}

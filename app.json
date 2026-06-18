@@ -34,11 +34,13 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "newArchEnabled": true
   }
 }
